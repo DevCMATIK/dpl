@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dfc66c4-d902-4ff4-aae5-a1e8354a0781" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Traits/HasTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dpl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dpl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/DPL/Device/DefineDevicesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/DPL/Device/DefineDevicesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Inventia/ExternalReport.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Inventia/ExternalReport.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../erm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -192,18 +186,35 @@
       <updated>1613565084778</updated>
       <workItem from="1613565086030" duration="1891000" />
       <workItem from="1613567705420" duration="4099000" />
-      <workItem from="1613659706264" duration="13190000" />
+      <workItem from="1613659706264" duration="13836000" />
+      <workItem from="1613860555994" duration="447000" />
     </task>
+    <task id="LOCAL-00001" summary="job">
+      <created>1613841556283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613841556283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="job" />
+    <option name="LAST_COMMIT_MESSAGE" value="job" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613750888605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1613750888605" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1613841555400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613841555400" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613663387173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -224,13 +235,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613659647391" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1613659841542">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1613841558043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613659841542" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1613751239627">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613841558043" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1613860991080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1613751239627" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1613860991080" />
   </component>
 </project>

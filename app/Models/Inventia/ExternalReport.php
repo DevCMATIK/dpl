@@ -9,9 +9,9 @@ class ExternalReport extends Model
 {
     use HasFactory;
 
-    protected $connection= 'inventia';
+    protected $connection= 'sopraval';
 
-    protected $table = 'inventia.external_reports';
+    protected $table = 'sopraval.external_reports';
 
     public function scopeFilter($query,$field,$value)
     {
