@@ -62,7 +62,15 @@ return [
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
-
+        'inventia' => [
+            'driver' => 'mysql',
+            'host' => '34.66.170.27',
+            //'host' => '34.66.170.27',
+            'port' => '3306',
+            'database' => 'inventia',
+            'username' => 'gestionhidro',
+            'password' => 'gestionhidro'
+        ],
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),

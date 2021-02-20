@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfc66c4-d902-4ff4-aae5-a1e8354a0781" name="Default Changelist" comment="" />
+    <list default="true" id="6dfc66c4-d902-4ff4-aae5-a1e8354a0781" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Traits/HasTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dpl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dpl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +25,14 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="208f6276-fe69-40dd-ba96-c095ed6e7b66" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,9 +153,13 @@
       <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/laravel/horizon" />
     </include_path>
   </component>
   <component name="ProjectId" id="1obpL1wTJQ8UJrWLG9Im9IoDMzS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -143,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../erm" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -168,6 +192,7 @@
       <updated>1613565084778</updated>
       <workItem from="1613565086030" duration="1891000" />
       <workItem from="1613567705420" duration="4099000" />
+      <workItem from="1613659706264" duration="13190000" />
     </task>
     <servers />
   </component>
@@ -175,17 +200,37 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613659356682">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613750888605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613659356682" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1613750888605" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613663387173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613663387173" />
+    <state x="627" y="323" key="Github.Dialog.Accounts.Choose" timestamp="1613659836838">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="627" y="323" key="Github.Dialog.Accounts.Choose/0.0.1536.824@0.0.1536.824" timestamp="1613659836838" />
+    <state x="617" y="296" key="Github.ShareDialog" timestamp="1613659824464">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="617" y="296" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1613659824464" />
+    <state x="511" y="33" key="Github.UntrackedFilesDialog" timestamp="1613659830760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="33" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1613659830760" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1613659647391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613659647391" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1613650633174">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1613659841542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1613650633174" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613659841542" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1613751239627">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1613751239627" />
   </component>
 </project>

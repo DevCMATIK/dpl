@@ -20,3 +20,22 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::middleware(['auth:sanctum','verified'])->group(function() {
+    //TESTS
+    Route::namespace('App\Http\Test\Controllers')->group(function() {
+        Route::get('test-report-insertion','TestReportTableController@testInsertion');
+        Route::get('test-inventia-connection','TestInventiaConnectionController@testConnection');
+        Route::get('test-device-data','TestDevicesDataController@testData');
+        Route::get('test-sensor-data','TestSensorsDataController@testData');
+        Route::get('test-device-with-last-report','TestDeviceWithLastReportController@testData');
+    });
+
+    Route::namespace('App\Http\DPL\Device')->group(function() {
+        Route::get('define-devices','DefineDevicesController@defineDevices');
+    });
+    Route::namespace('App\Http\DPL\Sensor')->group(function() {
+        Route::get('define-sensors','DefineSensorsController@defineSensors');
+    });
+});
+
