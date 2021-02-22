@@ -68,29 +68,30 @@ class MakeReportTable implements ShouldQueue
 
     protected function resolveConditional($sensor)
     {
+        $report_value = $sensor->last_report->value ?? 0;
         if($sensor->is_conditional === 1) {
             switch($sensor->option) {
                 case 'equalTo' :
-                    return ($sensor->last_report->value == $sensor->conditional) ? 1 : 0;
+                    return ($report_value ?? 0 == $sensor->conditional) ? 1 : 0;
                     break;
                 case 'greaterThan' :
-                    return ($sensor->last_report->value > $sensor->conditional) ? 1 : 0;
+                    return ($report_value  > $sensor->conditional) ? 1 : 0;
                     break;
                 case 'lessThan' :
-                    return ($sensor->last_report->value < $sensor->conditional) ? 1 : 0;
+                    return ($report_value  < $sensor->conditional) ? 1 : 0;
                     break;
                 case 'greaterOrEqual':
-                    return ($sensor->last_report->value >= $sensor->conditional) ? 1 : 0;
+                    return ($report_value  >= $sensor->conditional) ? 1 : 0;
                     break;
                 case 'lessOrEqual' :
-                    return ($sensor->last_report->value <= $sensor->conditional) ? 1 : 0;
+                    return ($report_value  <= $sensor->conditional) ? 1 : 0;
                     break;
                 default:
-                    return ($sensor->last_report->value != $sensor->conditional) ? 0 : 1;
+                    return ($report_value  != $sensor->conditional) ? 0 : 1;
                     break;
             }
         }
 
-        return $sensor->last_report->value ?? null;
+        return $report_value ?? null;
     }
 }
