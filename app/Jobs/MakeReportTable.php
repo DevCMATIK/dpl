@@ -41,7 +41,7 @@ class MakeReportTable implements ShouldQueue
     protected function toInsertData()
     {
         return VirtualDevice::with('sensors')->get()->map(function($device){
-            $date = $device->sensor->map(function($sensor){
+            $date = $device->sensors->map(function($sensor){
                 return $sensor->last_report->created_at;
             })->collapse()->sortDesc()->first();
             return array_merge([
