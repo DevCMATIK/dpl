@@ -52,7 +52,7 @@ class DefineSensorsController extends Controller
             [
                 'device_id' => 1,
                 'address' => 'an3',
-                'name' => 'Flujo',
+                'name' => 'Aporte',
                 'reportable_field' => 'variable',
                 'reportable_value' => 'FlujoAcumulado'
             ],
@@ -73,31 +73,11 @@ class DefineSensorsController extends Controller
             [
                 'device_id' => 2,
                 'address' => 'an3',
-                'name' => 'Flujo',
-                'reportable_field' => 'variable',
-                'reportable_value' => 'FlujoAcumulado'
-            ],
-            [
-                'device_id' => 3,
-                'address' => 'an1',
-                'name' => 'Nivel',
-                'reportable_field' => 'variable',
-                'reportable_value' => 'NivelPozo'
-            ],
-            [
-                'device_id' => 3,
-                'address' => 'an2',
-                'name' => 'Caudal',
-                'reportable_field' => 'variable',
-                'reportable_value' => 'CaudalInstantaneo'
-            ],
-            [
-                'device_id' => 3,
-                'address' => 'an3',
-                'name' => 'Flujo',
+                'name' => 'Aporte',
                 'reportable_field' => 'variable',
                 'reportable_value' => 'FlujoAcumulado'
             ]
+
         );
     }
 }
