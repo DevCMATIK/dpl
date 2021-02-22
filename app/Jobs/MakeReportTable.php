@@ -42,8 +42,8 @@ class MakeReportTable implements ShouldQueue
     {
         return VirtualDevice::with('sensors')->get()->map(function($device){
             $date = $device->sensors->map(function($sensor){
-                return $sensor->last_report->created_at;
-            })->collapse()->sortDesc()->first();
+                return $sensor->last_report->created_at ?? null ;
+            })->sortDesc()->first();
             return array_merge([
                 'grd_id' => $device->grd_id,
                 'state' => $this->resolveState($date),
@@ -59,7 +59,11 @@ class MakeReportTable implements ShouldQueue
 
     protected function resolveState($date)
     {
-        return (Carbon::now()->diffInMinutes(Carbon::parse($date)) > 5)?0:1;
+        if($date === null ){
+            return 0;
+        } else {
+            return (Carbon::now()->diffInMinutes(Carbon::parse($date)) > 5)?0:1;
+        }
     }
 
     protected function resolveConditional($sensor)
