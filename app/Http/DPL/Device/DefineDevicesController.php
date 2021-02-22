@@ -34,28 +34,20 @@ class DefineDevicesController extends Controller
     {
         return array(
             [
-                'grd_id' => 3500,
-                'name' => 'Pozo 1 ejemplo',
+                'grd_id' => 4001,
+                'name' => 'Pozo N°6',
                 'reportable_db' => 'sopraval',
                 'reportable_table' => 'external_reports',
                 'reportable_field' => 'code',
-                'reportable_value' => 'O_0504_1115',
+                'reportable_value' => 'OB-0504-1115',
             ],
             [
-                'grd_id' => 3501,
-                'name' => 'Pozo 2 ejemplo',
+                'grd_id' => 4002,
+                'name' => 'Pozo N°7',
                 'reportable_db' => 'sopraval',
                 'reportable_table' => 'external_reports',
                 'reportable_field' => 'code',
-                'reportable_value' => 'OB_999_9999',
-            ],
-            [
-                'grd_id' => 3502,
-                'name' => 'Pozo 3 ejemplo',
-                'reportable_db' => 'sopraval',
-                'reportable_table' => 'external_reports',
-                'reportable_field' => 'code',
-                'reportable_value' => 'OB_888_8888',
+                'reportable_value' => 'OB-0504-1116',
             ]
         );
     }
