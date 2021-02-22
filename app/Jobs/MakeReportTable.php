@@ -47,7 +47,7 @@ class MakeReportTable implements ShouldQueue
             return array_merge([
                 'grd_id' => $device->grd_id,
                 'state' => $this->resolveState($date),
-                'date' => $date,
+                'date' => $date ?? Carbon::now()->toDateTimeString(),
             ],$device->sensors->map(function($sensor){
                 return [
                     $sensor->address => $this->resolveConditional($sensor) ?? null
