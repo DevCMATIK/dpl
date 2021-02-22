@@ -35,7 +35,11 @@ class TestDeviceWithLastReportController extends Controller
 
     protected function resolveState($date)
     {
-        return (Carbon::now()->diffInMinutes(Carbon::parse($date)) > 5)?0:1;
+        if($date === null ){
+            return 0;
+        } else {
+            return (Carbon::now()->diffInMinutes(Carbon::parse($date)) > 5)?0:1;
+        }
     }
 
     protected function resolveConditional($sensor)
