@@ -42,7 +42,7 @@ class MakeReportTable implements ShouldQueue
     {
         return VirtualDevice::with('sensors')->get()->map(function($device){
             $date = $device->sensors->map(function($sensor){
-                return $sensor->last_report->created_at ?? null ;
+                return $sensor->last_report->insertion_date ?? null ;
             })->sortDesc()->first();
             return array_merge([
                 'grd_id' => $device->grd_id,
