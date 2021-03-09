@@ -39,7 +39,7 @@ return [
                 'cluster' => env('PUSHER_APP_CLUSTER'),
                 'encrypted' => true,
                 'host' => 'dpl.cmatik.app',
-                'port' => 41002,
+                'port' => 6001,
                 'scheme' => 'https',
                 'curl_options' => [
                     CURLOPT_SSL_VERIFYHOST => 0,
