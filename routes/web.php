@@ -39,3 +39,6 @@ Route::middleware(['auth:sanctum','verified'])->group(function() {
     });
 });
 
+Route::get('/broadcast', function () {
+    broadcast(new \App\Events\Test());
+});
