@@ -12,14 +12,23 @@ class TestSocketController extends Controller
 
     public function __invoke()
     {
+        $socket = $this->connect('35.192.205.161', 6001, 'dbs', 'dbs', 2000);
         return $this->testResponse([
-            'socket' => $this->connect('35.192.205.161', 6001, 'dbs', 'dbs', 2000)
+            'socket' => $this->getData($socket)
         ]) ;
     }
 
-    protected function getData()
+    protected function getData($socket)
     {
+        while(true) {
+            $ans = "";
+            stream_set_timeout($socket, 2);
+            $ans = fread($socket,5000);
+            if (strlen($ans)!=0){
+                return $ans;
 
+            }
+        }
     }
 
     protected function connect($ip, $port, $user, $pass, $id)
