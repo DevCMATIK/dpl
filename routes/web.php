@@ -31,6 +31,10 @@ Route::middleware(['auth:sanctum','verified'])->group(function() {
         Route::get('test-device-with-last-report','TestDeviceWithLastReportController@testData');
     });
 
+    Route::namespace('App\Http\Socket')->group(function(){
+        Route::get('test-socket',\App\Http\Socket\TestSocketController::class);
+    });
+
     Route::namespace('App\Http\DPL\Device')->group(function() {
         Route::get('define-devices','DefineDevicesController@defineDevices');
     });
