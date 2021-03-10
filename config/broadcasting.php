@@ -32,14 +32,14 @@ return [
 
         'pusher' => [
             'driver' => 'pusher',
-            'key' => env('PUSHER_APP_KEY'),
-            'secret' => env('PUSHER_APP_SECRET'),
-            'app_id' => env('PUSHER_APP_ID'),
+            'key' => "dbscerdos",
+            'secret' => "DevCMATIK",
+            'app_id' => 1235689,
             'options' => [
                 'cluster' => env('PUSHER_APP_CLUSTER'),
                 'encrypted' => true,
                 'host' => '192.168.20.21',
-                'port' => 41000,
+                'port' => 41001,
                 'scheme' => 'http'
             ],
         ],

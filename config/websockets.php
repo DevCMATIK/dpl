@@ -32,6 +32,16 @@ return [
             'enable_client_messages' => false,
             'enable_statistics' => true,
         ],
+        [
+            'id' => 1235689,
+            'name' => "DBS",
+            'key' => "dbscerdos",
+            'secret' => "DevCMATIK",
+            'path' => env('PUSHER_APP_PATH'),
+            'capacity' => null,
+            'enable_client_messages' => false,
+            'enable_statistics' => true,
+        ],
     ],
 
     /*
