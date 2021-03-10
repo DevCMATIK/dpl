@@ -13,7 +13,7 @@ class TestSocketController extends Controller
     public function __invoke()
     {
         return $this->testResponse([
-            'socket' => $this->connect('34.69.39.226', 41001, 'dbscerdos', 'DevCMATIK', 1012)
+            'socket' => $this->connect('35.192.205.161', 6001, 'dbs', 'dbs', 2000)
         ]) ;
     }
 
