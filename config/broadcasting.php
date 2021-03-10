@@ -37,14 +37,10 @@ return [
             'app_id' => env('PUSHER_APP_ID'),
             'options' => [
                 'cluster' => env('PUSHER_APP_CLUSTER'),
-                'encrypted' => true,
-                'host' => 'dbs.cmatik.app',
+                //'encrypted' => true,
+                'host' => '34.69.39.226',
                 'port' => 41001,
-                'scheme' => 'https',
-                'curl_options' => [
-                    CURLOPT_SSL_VERIFYHOST => 0,
-                    CURLOPT_SSL_VERIFYPEER => 0,
-                ]
+                'scheme' => 'http',
 
             ]
         ],

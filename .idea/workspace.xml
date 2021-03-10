@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6dfc66c4-d902-4ff4-aae5-a1e8354a0781" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/websockets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +211,7 @@
       <workItem from="1614202487889" duration="1182000" />
       <workItem from="1614690490169" duration="1018000" />
       <workItem from="1615315093904" duration="10447000" />
-      <workItem from="1615380110294" duration="7294000" />
+      <workItem from="1615380110294" duration="7765000" />
     </task>
     <task id="LOCAL-00001" summary="job">
       <created>1613841556283</created>
