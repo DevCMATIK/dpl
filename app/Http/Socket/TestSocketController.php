@@ -20,15 +20,12 @@ class TestSocketController extends Controller
 
     protected function getData($socket)
     {
-        while(true) {
             $ans = "";
             stream_set_timeout($socket, 2);
             $ans = fread($socket,5000);
             if (strlen($ans)!=0){
                 return $ans;
-
             }
-        }
     }
 
     protected function connect($ip, $port, $user, $pass, $id)
