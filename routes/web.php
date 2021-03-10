@@ -32,7 +32,7 @@ Route::middleware(['auth:sanctum','verified'])->group(function() {
     });
 
     Route::namespace('App\Http\Socket')->group(function(){
-        Route::get('test-socket',\App\Http\Socket\TestSocketController::class);
+        Route::get('test-socket','TestSocketController');
     });
 
     Route::namespace('App\Http\DPL\Device')->group(function() {
