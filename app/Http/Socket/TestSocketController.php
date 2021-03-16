@@ -13,9 +13,10 @@ class TestSocketController extends Controller
     public function __invoke()
     {
         $socket = $this->connect('35.192.205.161', 6001, 'dbs', 'dbs', 2000);
-        dd($socket);
+        stream_set_timeout($socket, 2);
+
         return $this->testResponse([
-            'socket' => $this->getData($socket)
+            'socket' => fread($socket,1000),
         ]) ;
     }
 
