@@ -34,8 +34,10 @@ class MakeReportTable implements ShouldQueue
      */
     public function handle()
     {
-        //DB::table('reports')->truncate();
-        Report::insert($this->toInsertData());
+        foreach($this->toInsertData() as $data)
+        {
+            Report::updateOrCreate([$data->grd_id],$data);
+        }
     }
 
     protected function toInsertData()
