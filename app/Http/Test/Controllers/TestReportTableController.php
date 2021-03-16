@@ -18,7 +18,7 @@ class TestReportTableController extends Controller
     {
         foreach($this->toInsertData() as $data)
         {
-            Report::updateOrCreate([$data->grd_id],$data);
+            Report::updateOrCreate([$data['grd_id']],$data);
         }
         return $this->testResponse(Report::get());
     }

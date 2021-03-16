@@ -7,7 +7,6 @@
     <list default="true" id="6dfc66c4-d902-4ff4-aae5-a1e8354a0781" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Test/Controllers/TestReportTableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Test/Controllers/TestReportTableController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/MakeReportTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/MakeReportTable.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,7 @@
       <workItem from="1615380110294" duration="8388000" />
       <workItem from="1615404015149" duration="1847000" />
       <workItem from="1615407549800" duration="4032000" />
-      <workItem from="1615898655028" duration="1517000" />
+      <workItem from="1615898655028" duration="1550000" />
     </task>
     <task id="LOCAL-00001" summary="job">
       <created>1613841556283</created>
