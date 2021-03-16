@@ -16,6 +16,7 @@ class TestReportTableController extends Controller
 
     public function testInsertion()
     {
+        dd($this->toInsertData());
         return $this->testResponse($this->toInsertData());
         foreach($this->toInsertData() as $data)
         {
