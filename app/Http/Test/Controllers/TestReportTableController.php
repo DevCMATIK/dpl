@@ -16,12 +16,9 @@ class TestReportTableController extends Controller
 
     public function testInsertion()
     {
-        DB::table('reports')->truncate();
-
-        Report::insert($this->toInsertData());
 
 
-        return $this->testResponse(Report::get());
+        return $this->testResponse($this->toInsertData());
     }
 
     public function toInsertData()

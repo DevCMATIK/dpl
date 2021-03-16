@@ -34,7 +34,7 @@ class MakeReportTable implements ShouldQueue
      */
     public function handle()
     {
-        DB::table('reports')->truncate();
+        //DB::table('reports')->truncate();
         Report::insert($this->toInsertData());
     }
 
