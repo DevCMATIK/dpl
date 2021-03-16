@@ -16,11 +16,12 @@ class TestReportTableController extends Controller
 
     public function testInsertion()
     {
+        return $this->testResponse($this->toInsertData());
         foreach($this->toInsertData() as $data)
         {
             Report::updateOrCreate([$data['grd_id']],[
                 'status' => $data['status'],
-                'date' => $data['status'],
+                'date' => $data['date'],
                 'i1' => $data['i1'],
                 'i2'=> $data['i2'],
                 'i3'=> $data['i3'],
