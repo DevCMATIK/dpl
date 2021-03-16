@@ -18,7 +18,7 @@ class TestReportTableController extends Controller
     {
         foreach($this->toInsertData() as $data)
         {
-            Report::updateOrCreate([$data['grd_id']],[
+            Report::updateOrCreate(['grd_id' =>  $data['grd_id']],[
                 'state' => $data['state'] ?? null,
                 'date' => $data['date'],
                 'i1' => $data['i1'] ?? null,
